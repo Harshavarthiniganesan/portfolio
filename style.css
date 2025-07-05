@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    padding: 0.5rem 0rem;
+   }
+.nav-link{
+    
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: 15px 2px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+      
+    
+    }
+    .nav-link:hover{
+        border:2px solid #FFC000;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .navbar-nav{
+        margin-left:auto;
+        
+    }
+    .navbar-toggler {
+        padding: 0%;
+    }
+    .nav-item{
+        padding:20px;
+        margin-top: 0px;
+    }
+   .home-image img{
+    margin: auto;
+  justify-content: center;
+   }
+   @media screen and (max-width:390px){
+    #about-me{
+      font-size: 15px !important; 
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: 400;
+      font-style: normal;
+      
+      letter-spacing: normal;
+      word-spacing: normal;
+      
+    }
+   }
+  @media screen and (max-width:450px){
+    #home{
+      height: 60vh;
+    } 
+    .navbar-brand{
+        padding: 0.5rem 0rem;
+       }
+       #logo{
+        font-size: 25px;
+       }
+     #yellowgirl {width:300px;
+       height:300px;
+      }
+   #top{
+    margin-top: auto    ;
+   }
+
+   #hi{
+    margin-top:5px !important;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px  #FFC000;
+
+    
+  }
+  #web{
+    margin-top:10px;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px  #FFC000;
+
+  }
+  .home-image img{
+  margin-top: 40px;
+  justify-content: center;
+   height: 200px;
+   width:200px;
+   }
+  
+   #about-me{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    letter-spacing: normal;
+    word-spacing: normal;
+    
+  }
+
+  }
+  
+  #yellowgirl{
+    background-color: black;
+    margin-left:0px;
+    
+  }
+ 
+
+
+#top h1 h4{
+        font-size: 10px;
+    }
+
+#text{
+    color:white;
+    font-size: 30px;
+}
+.web{
+    color: #fff;
+    text-shadow: 2px 2px 5px  #FFC000;
+  }
+  .mainword:hover{
+     color:#FFC000;
+  }
+  /*card*/
+ #item img{
+
+    border:2px solid #FFC000 ;
+    border-radius: 50%;
+
+    
+ }
+ .card{
+    background-color: #000000;
+ }
+ /*button*/
+ .button {
+    background-color: #000000;
+    border: 2px solid #FFC000;
+    border-radius: 25px;
+    color:#FFC000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:20px;
+   
+  }
+  .button:hover{
+    background-color:#FFC000;
+    color: #000000;
+  }
+  #word{
+    color:white;
+    font-size:30px;
+    padding: 20px;
+    line-height: 25px;
+    padding-left: 10px;
+    
+  }
+  #hi{
+    margin-top:20px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px  #FFC000;
+
+    
+  }
+  #web{
+    margin-top:20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px  #FFC000;
+
+  }
+  /*girl*/
+  #item2{
+     border:2px solid #ffc000;
+     border-radius: 0%;
+     margin:10px;
+  }
+  
+  #about-me{
+  
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+  }
+  #icons1,#icons2, #icons3, #icons4, #icons5, #icons6,#icons7,#icons8,#icons9,#icons10,#icons11,#icons12,#icons13,#icons14,#icons15,#icons16,#icons17,#icons18,#icons19,#icons20{
+    border-radius: 50%;
+    border:3px solid #FFC000;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .icon{
+    border:2px solid #FFC000;
+  }
+  .skill-details{
+    color:white;
+  }
+  .project-details{
+    color:white;
+  }
+  #home{
+    height: 90vh; 
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .intro-image{
+    border:2px solid #FFC000 ;
+    border-radius: 50%;
+  }
+  
+/*large screen*/
+@media screen and(max-width: 992px){
+  #home{
+    margin-top: 70px;
+  }
+  .home-image img{
+    margin-top: 40px;
+    justify-content: center;
+     height: 200px;
+     width:200px;
+     }
+     #about-me{
+      margin-top:40px;
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+
+    }
+} 
+#bottom a img{
+    text-align: center;
+    border-radius: 50%;
+    margin-left:auto;
+
+}
+#bottom a img:hover{
+   background-color: rgb(255, 255, 255);
+  
+}
+.last a {
+  text-align: center;
+}
